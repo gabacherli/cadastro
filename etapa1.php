@@ -1,6 +1,6 @@
 <html>
 <head> 
-	<title>Desenvolvendo Websites com PHP</title> 
+	<title>Cadastro - Etapa 1</title> 
 	<meta charset="UTF-8">
 </head>
 <body> 
@@ -16,12 +16,12 @@
 		</div>
 		<div align="center">
 			<center> 
-				<p>E-mail: <input type="text" name="email" size="20"></p> 
+				<p>E-mail: <input type="email" name="email" size="20"></p> 
  			</center>
 		</div>
 		<div align="center">
 			<center> 
-				<p>Data de nascimento: <input type="text" name="datanascimento" size="20"></p> 
+				<p>Data de nascimento: <input type="Date" name="datanascimento" size="20"></p> 
  			</center>
 		</div>
 		<div align="center">
@@ -36,7 +36,7 @@
 		<div align="center">
 			<center> 
 				<p>
-					Profissão: <input type="text" name="profissao" size="20">
+					Profissão: <input type="text" name="profissao" size="40">
 				</p> 
  			</center>
 		</div>

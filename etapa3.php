@@ -1,6 +1,6 @@
 <html>
 <head> 
-	<title>Desenvolvendo Websites com PHP</title> 
+	<title>Cadastro - Etapa 3</title> 
 	<meta charset="UTF-8">
 </head>
 <body> 
@@ -24,11 +24,11 @@
  		</center></div>
 
 		<div align="center"><center>
-			<p>Senha: <input type="text" name="senha" size="10"></p> 
+			<p>Senha: <input type="password" name="senha" size="10"></p> 
 		</center></div>
 			
 		<div align="center"><center>
-			<p>Confirme sua Senha: <input type="text" name="confirma_senha" size="10"></p> 
+			<p>Confirme sua Senha: <input type="password" name="confirma_senha" size="10"></p> 
  		</center></div>
 
 		<div align="center"><center>

@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Desenvolvendo Websites com PHP</title> 
+	<title>Cadastro - Etapa 2</title> 
 	<meta charset="UTF-8">
 <head>
 <body> 
@@ -15,11 +15,11 @@
  		<input type="hidden" name="profissao" value="<?php echo $profissao; ?>"> 
  		
 		<div align="center"><center> 
-			<p>Telefone: <input type="text" name="telefone" size="20"></p> 
+			<p>Telefone: <input type="number" name="telefone" size="11"></p> 
  		</center></div>
 
 		<div align="center"><center> 
-			<p>Endereco: <input type="text" name="endereco" size="20"></p> 
+			<p>Endereço: <input type="text" name="endereco" size="40"></p> 
  		</center></div>
 
 		<div align="center"><center> 
@@ -28,7 +28,7 @@
 		</center></div>
 		
 		<div align="center"><center> 
-			<p>CEP: <input type="text" name="cep" size="9"></p> 
+			<p>CEP: <input type="number" name="cep" size="9"></p> 
  		</center></div>
 		
 		<div align="center"><center>

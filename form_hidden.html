@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Produto </title>
+	<title> Form_hidden.html </title>
 	<meta charset="UTF-8">
 </head>	
 <body>
@@ -22,6 +22,18 @@
 			<input type="hidden" name="operacao" value="exclusao">
 			<label> Código do Produto
 				<input type="text" name="codigo_produto" size="5"> 
+			</label>
+			<input type="submit" value="Inserir" name="Inserir">
+		</form>
+		
+                <h3> Atualização de Produtos </h3>
+                <form method="POST" action="gerencia.php">
+			<input type="hidden" name="operacao" value="atualizacao">
+			<label> Código do Produto atualizado
+				<input type="text" name="codigo_produto" size="5"> 
+			</label>
+			<label> Nome do Produto atualizado
+				<input type="text" name="nome_produto" size="20"> 
 			</label>
 			<input type="submit" value="Inserir" name="Inserir">
 		</form>
