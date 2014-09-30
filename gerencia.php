@@ -17,7 +17,7 @@
 		echo "Produto excluído com sucesso.";
 	}
         
-        if (strcmp($operacao, "atualizacao") == 0 ) {
+        if (strcmp($operacao, "atualizar") == 0 ) {
 		// realiza a atualização do produto
 		echo "Produto atualizado com sucesso.";
         }

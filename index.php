@@ -6,7 +6,7 @@
 		$id = $_GET['id'];
 	
 
-	echo "Bem-vindo!!!" ;
+	echo "Bem-vindo!" ;
 	echo "<br>";
 	
 	if(isset($id)) {
